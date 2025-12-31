@@ -40,7 +40,7 @@ vectorstore.load()
 
 ## Load LLM from ollama-colab
 
-OLLAMA_URL = "https://executed-hay-rand-chains.trycloudflare.com"
+OLLAMA_URL = ""
 llm = Ollama(
     base_url=OLLAMA_URL,
     model="llama3.1:8b"
